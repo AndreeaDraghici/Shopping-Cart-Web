@@ -12,7 +12,7 @@ This tutorial series is intended for someone familiar with programming concepts,
 Application features
 ---
 
-- *The ASP.NET Web Form features presented in this series include:*
+- ***The ASP.NET Web Form features presented in this series include:***
 1. The Web Application Project (not Web Site Project)
 2. Web Forms
 3. Master Pages, Configuration
@@ -28,7 +28,7 @@ Application features
 
 Application scenarios and tasks
 -----
-- *Tutorial series tasks include:*
+- ***Tutorial series tasks include:***
 1. Creating, reviewing, and running a new project
 2. Creating a database structure
 3. Initializing and seeding a database
