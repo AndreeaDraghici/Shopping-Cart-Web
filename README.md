@@ -57,7 +57,7 @@ You can add products to the shopping cart.
 ![image](https://user-images.githubusercontent.com/72825756/154806138-efc0e5d9-80cf-49c8-bff4-44083365c9ba.png)
 
 
-Version 1.0.0
+Initial Version 1.0.0
 ----
 
 
