@@ -1,10 +1,6 @@
 # Shopping-Cart-Web
 *Using ASP.NET 4.5 Web Forms*
 
-| Syntax|Description|
-| ASP.NET|is an open-source framework designed for web development to produce dynamic web pages|
-| ASP.NET Web Forms|is a web application framework and one of several programming models supported by the Microsoft ASP.NET technology|
-| Web Forms applications|can be written in any programming language which supports the Common Language Runtime, such as C# or Visual Basic.|
 
 Shopping Cart Web is simplified storefront web site selling items online. 
 
@@ -13,7 +9,7 @@ Shopping Cart Web is simplified storefront web site selling items online.
 This tutorial series is intended for someone familiar with programming concepts, but new to ASP.NET Web Forms
 
 ------
-Application features
+> Application features
 ---
 
 The ASP.NET Web Form features presented in this series include:
