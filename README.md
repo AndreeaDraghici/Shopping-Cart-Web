@@ -37,4 +37,13 @@ Tutorial series tasks include:
 7. Creating a shopping cart
 8. Adding SSL and OAuth support
 
+How to run
+--------
+
+-------------------------------
+
+The following screenshots are from the ASP.NET Web Forms application. When you run the application in Visual Studio, the following web Home page appears.
+
+![image](https://user-images.githubusercontent.com/72825756/154806020-4548d161-4a68-432b-b108-b65ffea8e77b.png)
+
 
