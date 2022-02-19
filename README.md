@@ -4,15 +4,15 @@
 
 Shopping Cart Web is simplified storefront web site selling items online. 
 
-- Overview
+Overview
 -----
 This tutorial series is intended for someone familiar with programming concepts, but new to ASP.NET Web Forms
 
 ------
-- Application features
+Application features
 ---
 
-The ASP.NET Web Form features presented in this series include:
+- The ASP.NET Web Form features presented in this series include:
 1. The Web Application Project (not Web Site Project)
 2. Web Forms
 3. Master Pages, Configuration
@@ -26,9 +26,9 @@ The ASP.NET Web Form features presented in this series include:
 11. SSL and OAuth
 12. ASP.NET Identity, Configuration, and Authorization
 
-- Application scenarios and tasks
+Application scenarios and tasks
 -----
-Tutorial series tasks include:
+- Tutorial series tasks include:
 1. Creating, reviewing, and running a new project
 2. Creating a database structure
 3. Initializing and seeding a database
