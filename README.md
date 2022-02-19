@@ -2,6 +2,11 @@
 Using ASP.NET 4.5 Web Forms
 
 Shopping Cart Web is simplified storefront web site selling items online. 
+
+Overview
+-----
+This tutorial series is intended for someone familiar with programming concepts, but new to ASP.NET Web Forms
+
 ------
 Application features
 ---
@@ -31,3 +36,5 @@ Tutorial series tasks include:
 6. Displaying menu details and product data
 7. Creating a shopping cart
 8. Adding SSL and OAuth support
+
+
