@@ -48,6 +48,7 @@ C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\bin\Newtonsoft.Json.x
 C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\bin\Antlr3.Runtime.pdb
 C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.csproj.CopyComplete
 C:\Users\user\source\repos\ShoppingCartWeb\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.dll
