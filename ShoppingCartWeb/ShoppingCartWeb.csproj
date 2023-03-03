@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-original.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\contact.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -143,7 +144,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\car.png" />
     <Content Include="Images\icon.png" />
-    <Content Include="Images\Thumbs.png" />
+    <Content Include="Catalog\Images\Thumbs.png" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -305,7 +306,6 @@
   <ItemGroup>
     <Folder Include="Account\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Catalog\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
