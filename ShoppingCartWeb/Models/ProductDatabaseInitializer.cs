@@ -21,27 +21,32 @@ namespace ShoppingCartWeb.Models
                 new Category
                 {
                     CategoryID = 1,
-                    CategoryName = "Cars"
+                    CategoryName = "Cars",
+                    Description="Test"
                 },
                 new Category
                 {
                     CategoryID = 2,
-                    CategoryName = "Planes"
+                    CategoryName = "Planes",
+                    Description="Test"
                 },
                 new Category
                 {
                     CategoryID = 3,
-                    CategoryName = "Trucks"
+                    CategoryName = "Trucks",
+                    Description="Test"
                 },
                 new Category
                 {
                     CategoryID = 4,
-                    CategoryName = "Boats"
+                    CategoryName = "Boats",
+                    Description="Test"
                 },
                 new Category
                 {
                     CategoryID = 5,
-                    CategoryName = "Rockets"
+                    CategoryName = "Rockets",
+                    Description="Test"
                 },
             };
 
