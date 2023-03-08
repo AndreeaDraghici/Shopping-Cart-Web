@@ -58,14 +58,15 @@ You can add products to the shopping cart.
 
 ## Release History
 
-Version 1.0.1 - Second Version
+Version 1.0.1 - Second Version - Developed in 2023
 
   - Added normal and predictive search options.
   - Bug fixes on UI functionalities.
   - Added geolocation on About page.
   - Modify the layout.
   
-Version 1.0.0 - Initial Version
+Version 1.0.0 - Initial Version - Devloped in 2022
+  - Shooping cart
 
 ----
 
