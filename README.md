@@ -56,7 +56,14 @@ You can add products to the shopping cart.
 
 ![image](https://user-images.githubusercontent.com/72825756/154806138-efc0e5d9-80cf-49c8-bff4-44083365c9ba.png)
 
+## Release History
 
+Version 1.0.1
+  - Added normal and predictive search options.
+  - Bug fixes on UI functionalities.
+  - Added geolocation on About page.
+  - Modify the layout.
+  
 Version 1.0.0
 ----
 
