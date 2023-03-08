@@ -58,13 +58,15 @@ You can add products to the shopping cart.
 
 ## Release History
 
-Version 1.0.1
+Version 1.0.1 - Second Version
+
   - Added normal and predictive search options.
   - Bug fixes on UI functionalities.
   - Added geolocation on About page.
   - Modify the layout.
   
-Version 1.0.0
+Version 1.0.0 - Initial Version
+
 ----
 
 
