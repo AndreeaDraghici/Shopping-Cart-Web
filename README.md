@@ -47,10 +47,9 @@ The following screenshots are from the ASP.NET Web Forms application. When you r
 ![image](https://user-images.githubusercontent.com/72825756/154806020-4548d161-4a68-432b-b108-b65ffea8e77b.png)
 
 The top navigation has links to product categories and their products from the database.
-If you select Products, all available products are displayed.
+If you select Products, all available products are displayed, user can search a product.
 
-![image](https://user-images.githubusercontent.com/72825756/154806071-9ca45495-f7d4-4164-b3e4-8bd853ebc1b6.png)
-
+![image](https://user-images.githubusercontent.com/72825756/224380764-406d0188-2280-40a4-838f-c8a33ae38385.png)
 
 You can add products to the shopping cart.
 
