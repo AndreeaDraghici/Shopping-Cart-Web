@@ -11,6 +11,9 @@
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\packages\Lucene.Net.3.0.3\lib\NET35\</ReferencePath>
+  </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
