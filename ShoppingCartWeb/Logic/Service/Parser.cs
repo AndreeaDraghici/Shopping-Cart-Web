@@ -17,7 +17,6 @@ namespace ShoppingCartWeb.Logic.Service
 {
     public class Parser
     {
-        /*
         public static string PdfParser(MediaItem mediaItem)
         {
             if (mediaItem is null)
@@ -90,6 +89,6 @@ namespace ShoppingCartWeb.Logic.Service
 #pragma warning restore IDE0031 // Use null propagation
             }
         }
-        */
+       
     }
 }

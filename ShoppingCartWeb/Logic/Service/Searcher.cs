@@ -32,15 +32,15 @@ namespace ShoppingCartWeb.Logic.Service
             _indexSearcher = new IndexSearcher(_indexReader);
         }
 
-      //  public IList<DocumentModel> Search(string queryText)
-      //  {
-         //   var queryParser = new QueryParser(Lucene.Net.Util.LuceneVersion.LUCENE_48, "content", _analyzer);
-         //   var query = queryParser.Parse(queryText);
+        public IList<DocumentModel> Search(string queryText)
+        {
+            var queryParser = new QueryParser(Lucene.Net.Util.LuceneVersion.LUCENE_30, "content", _analyzer);
+            var query = queryParser.Parse(queryText);
 
-        //    var topDocs = _indexSearcher.Search(query, 10);
-        //    var documentModels = new List<DocumentModel>();
+            var topDocs = _indexSearcher.Search(query, 10);
+            var documentModels = new List<DocumentModel>();
 
-            /*
+            
             foreach (var scoreDoc in topDocs.ScoreDocs)
             {
                 var document = _indexSearcher.Doc(scoreDoc.Doc);
@@ -74,14 +74,12 @@ namespace ShoppingCartWeb.Logic.Service
 
             return documentModels;
         }
-            */
-
-
+            
         public void Close()
         {
             _indexReader.Dispose();
             _analyzer.Dispose();
-           // _indexDirectory.Close();
+            _indexDirectory.Close();
         }
 
     }
