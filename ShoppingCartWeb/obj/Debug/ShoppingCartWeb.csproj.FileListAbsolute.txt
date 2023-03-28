@@ -163,3 +163,9 @@ C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bi
 C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.csproj.CopyComplete
 C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.dll
 C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\obj\Debug\ShoppingCartWeb.pdb
+C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bin\Lucene.Net.Queries.dll
+C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bin\Lucene.Net.QueryParser.dll
+C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bin\Lucene.Net.Sandbox.dll
+C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bin\Lucene.Net.Queries.xml
+C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bin\Lucene.Net.QueryParser.xml
+C:\Users\user\OneDrive\Desktop\ShoopingCart\Shopping-Cart-Web\ShoppingCartWeb\bin\Lucene.Net.Sandbox.xml

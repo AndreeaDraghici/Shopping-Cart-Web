@@ -3,15 +3,9 @@ using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.parser;
 using org.apache.pdfbox.pdmodel;
 using org.apache.pdfbox.util;
-using PdfSharp.Pdf;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.util;
-using System.Web;
-using System.Web.UI.WebControls;
 
 namespace ShoppingCartWeb.Logic.Service
 {
@@ -64,31 +58,37 @@ namespace ShoppingCartWeb.Logic.Service
                 }
                 finally
                 {
-#pragma warning disable IDE0031 // Use null propagation
                     if (pdfReader != null)
                     {
                         pdfReader.Close();
                     }
-#pragma warning restore IDE0031 // Use null propagation
                 }
             }
             finally
             {
-#pragma warning disable IDE0031 // Use null propagation
                 if (pdDocument != null)
                 {
                     pdDocument.close();
                 }
-#pragma warning restore IDE0031 // Use null propagation
 
-#pragma warning disable IDE0031 // Use null propagation
                 if (inputStreamWrapper != null)
                 {
                     inputStreamWrapper.close();
                 }
-#pragma warning restore IDE0031 // Use null propagation
             }
         }
        
+    }
+
+    public class MediaItem
+    {
+        public string Name { get; internal set; }
+        public string filePath { get; private set; }
+
+        internal Stream GetMediaStream()
+        {
+            var fileContent = File.ReadAllBytes(filePath); 
+            return new MemoryStream(fileContent);
+        }
     }
 }

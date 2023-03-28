@@ -6,13 +6,9 @@ using Lucene.Net.Store;
 using ShoppingCartWeb.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using iTextSharp.text.pdf.parser;
-using java.nio.file;
 using iTextSharp.text.pdf;
 using System.Text;
-using Remotion.Linq.Parsing.Structure;
 
 namespace ShoppingCartWeb.Logic.Service
 {
@@ -34,13 +30,14 @@ namespace ShoppingCartWeb.Logic.Service
 
         public IList<DocumentModel> Search(string queryText)
         {
-            var queryParser = new QueryParser(Lucene.Net.Util.LuceneVersion.LUCENE_30, "content", _analyzer);
+            var queryParser = new Lucene.Net.QueryParsers.Classic.QueryParser(Lucene.Net.Util.LuceneVersion.LUCENE_48, "content", _analyzer);
             var query = queryParser.Parse(queryText);
 
             var topDocs = _indexSearcher.Search(query, 10);
             var documentModels = new List<DocumentModel>();
 
             
+
             foreach (var scoreDoc in topDocs.ScoreDocs)
             {
                 var document = _indexSearcher.Doc(scoreDoc.Doc);
@@ -66,11 +63,10 @@ namespace ShoppingCartWeb.Logic.Service
 
                 documentModels.Add(new DocumentModel
                 {
-                    Id = document.Get("id"),
-                    Filename = filename,
                     Content = content
                 });
             }
+
 
             return documentModels;
         }
@@ -79,7 +75,7 @@ namespace ShoppingCartWeb.Logic.Service
         {
             _indexReader.Dispose();
             _analyzer.Dispose();
-            _indexDirectory.Close();
+            _indexDirectory.Dispose();
         }
 
     }

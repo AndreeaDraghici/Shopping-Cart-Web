@@ -10,5 +10,10 @@ namespace ShoppingCartWeb.Models
         public string Id { get; set; }
         public string Filename { get; set; }
         public string Content { get; set; }
+
+        internal void ExtractTextFromPdf(string filename)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

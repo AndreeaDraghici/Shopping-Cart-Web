@@ -4,12 +4,8 @@ using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Store;
 using ShoppingCartWeb.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using iTextSharp.text.pdf;
 using System.IO;
+
 
 namespace ShoppingCartWeb.Logic.Service
 {
@@ -33,15 +29,14 @@ namespace ShoppingCartWeb.Logic.Service
         {
             if (Path.GetExtension(document.Filename) == ".pdf")
             {
-            //    document.ExtractTextFromPdf(document.Filename);
+                document.ExtractTextFromPdf(document.Filename);
             }
 
-            var luceneDoc = new Document 
+            var luceneDoc = new Document
             {
-                 new StringField("id", document.Id, Field.Store.YES),
-             //    new TextField("filename", document.Filename, Field.Store.YES),
-             //    new TextField("content", document.Content, Field.Store.YES)
+                 new TextField("content", document.Content, Field.Store.YES)
             };
+
             _indexWriter.AddDocument(luceneDoc);
         }
 
@@ -52,9 +47,9 @@ namespace ShoppingCartWeb.Logic.Service
 
         public void Close()
         {
-           // _indexWriter.Close();
-           // _analyzer.Close();
-           // _indexDirectory.Close();
+            _indexWriter.Dispose();
+            _analyzer.Dispose();
+            _indexDirectory.Dispose();
         }
     }
 
