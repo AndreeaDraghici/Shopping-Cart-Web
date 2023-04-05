@@ -87,7 +87,7 @@ namespace ShoppingCartWeb.Logic.Service
 
         internal Stream GetMediaStream()
         {
-            var fileContent = File.ReadAllBytes(filePath); 
+            var fileContent = File.ReadAllBytes("C:\\Users\\user\\OneDrive\\Documents\\doc1.pdf"); 
             return new MemoryStream(fileContent);
         }
     }
