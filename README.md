@@ -59,13 +59,16 @@ You can add products to the shopping cart.
 
 Version 1.0.1 - Second Version - Developed in 2023
 
-  - Added normal and predictive search options.
+  - Added normal and predictive search functionalities.
   - Bug fixes on UI functionalities.
   - Added geolocation on About page.
-  - Modify the layout.
+  - Modify the layout and frontend.
+  - Add lucene.net lib , pdf parser , searcher and index functionalities.
+  - Search a product using lucene.net library.
   
-Version 1.0.0 - Initial Version - Devloped in 2022
+Version 1.0.0 - Initial Version - Developed in 2022
   - Shooping cart
+  - Store template and products.
 
 ----
 
